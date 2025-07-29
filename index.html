@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>My Digital Love Story</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-photo"></div>
+    <div class="floating-hearts"></div>
+    <button class="back-arrow" onclick="goBackSection()" aria-label="Go Back" style="display:none;">
+        &#8592;
+    </button>
+    <!-- Add audio player -->
+    <!-- ...existing code... -->
+<audio id="bg-music" src="music.mp3" autoplay loop></audio>
+<!-- ...existing code... -->
+    
+    <!-- Welcome Section -->
+    <section class="section welcome active" data-section="0">
+        <div class="love-symbols-container">
+            <div class="love-symbol">💖</div>
+            <div class="love-symbol">✨</div>
+            <div class="love-symbol">💕</div>
+            <div class="love-symbol">🌟</div>
+            <div class="love-symbol">💝</div>
+            <div class="love-symbol">⭐</div>
+        </div>
+        <div class="heart-icon">💖✨</div>
+         
+    <div class="cake-candles">
+        <span class="candle" style="--delay:0s;">🕯️</span>
+        <span class="candle" style="--delay:0.2s;">🕯️</span>
+        <span class="cake-glow">🎂</span>
+        <span class="candle" style="--delay:0.4s;">🕯️</span>
+        <span class="candle" style="--delay:0.6s;">🕯️</span>
+    </div>
+    
+        <h1 class="main-title">Bhavyasriiiiiiiii</h1>
+        <p class="subtitle">Happiest Birthdayyyyy</p>
+        <button class="btn" onclick="nextSection()">Click Chey✨</button>
+    </section>
+    
+    <!-- Love Section -->
+    <section class="section love hidden" data-section="1">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🌹</div>
+        <h2 class="section-title">Nuv entha istamo telsa asalu ?</h2>
+        <p class="quote">"not only for what you are, but for what I am when I am with you."</p>
+        <div class="content-box">
+            <p class="content-text">
+                okavela nenu ni midha unna istanni samudram tho polchali ante,  
+                I think inka manam undataniki ee bhoomi undadhu,  
+                endukante mottom samudram tho nindipovali.  
+                antha undi mari.  
+                ayna, antha intha istam unte cheppochhu,  
+                ikkada dachukolenantha istam undi,  
+                sorry cheppatam kastam.
+            </p>
+        </div>
+        <button class="btn" onclick="nextSection()">Nuv matladakapothe yela untadho telsa💔</button>
+    </section>
+    
+    <!-- Silence Section -->
+    <section class="section silence hidden" data-section="2">
+        <div class="rain-effect"></div>
+        <div style="font-size: 3rem; margin-bottom: 1rem;">☁️💧</div>
+        <h2 class="section-title">Nuv natho matladanappudu😓</h2>
+        <p class="quote">"The silence between us is louder than any words."</p>
+        <div class="content-box">
+            <p class="content-text">
+               Nuv natho matladakunda unnappudu yela untadho telsa, dhinamma oka 1000kg dumbell yedho na heart ki tagilinchi veladutunanttu untadhi. Antha baruvuga untadhi lopala. kani mostha tappadhu ga.
+               ante ardamkadhu, busy ga unnava ledha matladam intrest ledha lekapothe nene paddakala disturb chestunnana yedho yedho ila anni thought mind lo janmabhoomi express la run avtunee untai
+            </p>
+        </div>
+        <button class="btn" onclick="nextSection()">Na favsss 💝</button>
+    </section>
+    
+    <!-- Promise Section -->
+    <section class="section promise hidden" data-section="4">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">💜</div>
+        <h2 class="section-title">Idhi na promise</h2>
+        <p class="quote">"In you, I've found the love of my life and my closest, truest friend."</p>
+        <div class="content-box">
+            <p class="content-text">
+                Nik yeppudu em avasaram vachhina ikkada okadu unnadu, maybe nen ni daggara lekapovachhu kani dooram ga unnakunda nik vachhina problem ni nenu solve cheyataniki 100% try chestha. Try kadhu pakka solve chestha.
+            </p>
+            <p class="content-text">
+                Nik yeppudu ayna problem vaste yevarki cheppali enti ani nuv alochisthav.
+            </p>
+            <p class="content-text">
+                appudu ni mind loki vachhe first person nen avdam anukuntunna.
+            </p>
+            <p class="content-text">
+                Most importantly, I promise that you will only grow stronger with each 
+                passing moment. You are my forever, my always, my everything.
+            </p>
+        </div>
+        <button class="btn" onclick="nextSection()">One More Thing 💝</button>
+    </section>
+        
+    
+    <!-- Gift Section -->
+    <section class="section gift hidden" data-section="5">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">✨⭐</div>
+        <h2 class="section-title">A Gift for You</h2>
+        <div class="letter-container">
+            <div style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">💌💖</div>
+            <div class="letter-header">
+                <h3 class="letter-title">My Digital Love Letter</h3>
+                <p class="letter-greeting">My Dearest Love,</p>
+            </div>
+            <div class="letter-content">
+                <p>If I could give you one thing in life, I would give you the ability to see yourself through my eyes. Only then would you realize how special you are to me and how much I truly love you.</p>
+                
+                <p>Every day with you is a blessing I never want to take for granted. You are my sunshine on cloudy days, my anchor in stormy seas, and my greatest adventure.</p>
+                
+                <p>Thank you for being you. Thank you for loving me. Thank you for making my life infinitely better just by being in it.</p>
+            </div>
+            <div class="signature">
+                <p>Forever and always yours,</p>
+                <p class="signature-name">Your Loving Partner 💕</p>
+            </div>
+        </div>
+        <button class="btn" onclick="startOver()">Start Over 🔄</button>
+    </section>
+    
+    <!-- Add this Special Section for data-section="3" -->
+    <section class="section special hidden" data-section="3">
+        <div class="photo-gallery">
+            <div class="photo-shade">
+                <img src="story/src/css/photo1.jpg" alt="Her Photo 1">
+            </div>
+            <div class="photo-shade">
+                <img src="story/src/css/photo2.jpg" alt="Her Photo 2">
+            </div>
+            <div class="photo-shade">
+                <img src="story/src/css/photo3.jpg" alt="Her Photo 3">
+            </div>
+            <div class="photo-shade">
+                <img src="story/src/css/photo3.jpg" alt="Her Photo 3">
+            </div>
+            <div class="photo-shade">
+                <img src="story/src/css/photo3.jpg" alt="Her Photo 3">
+            </div>
+            <div class="photo-shade">
+                <img src="story/src/css/photo3.jpg" alt="Her Photo 3">
+            </div>
+            <div class="photo-shade">
+                <img src="story/src/css/photo3.jpg" alt="Her Photo 3">
+            </div>
+        </div>
+        <h2 class="section-title">My Favourite Memories With You</h2>
+        <p class="quote">"Every moment with you is a beautiful memory."</p>
+        <button class="btn" onclick="nextSection()">Continue 💖</button>
+    </section>
+    
+    <!-- Jelous Section -->
+    <section class="section jelous hidden" data-section="6">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">💜</div>
+        <h2 class="section-title">Nak telidhu nalo intha jelous undi ani</h2>
+        <p class="quote">"In you, I've found the love of my life and my closest, truest friend."</p>
+        <div class="content-box">
+            <p class="content-text">
+                Miru evartho ayna bayataki velthe andulo boys unnaru ani telisthe chalu, Oka konda ni pagalakotte antha kopam vastadhi.
+            </p>
+            <p class="content-text">
+               Ninnu vere boy okadu photos tisadu ani cheptunte nak lopala heart lo blood badhulu pedda valcono flow avtunna feel vasthadi.
+            </p>
+            <p class="content-text">
+               Nuv cafe,restaurant snaps pedithe chalu mind lo okate though only girls velthe bagundi ani.
+            </p>
+            <p class="content-text">
+                Boys tho velthe tappu ani kadhu , enduko ni vishyam lo nak adhi nachhadhu and appatiki appudu evaro okaditho godava padi,kotti kopam antha tirchukovali anipisthadhi.
+            </p>
+        </div>
+        <button class="btn" onclick="nextSection()">One More Thing 💝</button>
+    </section>
+   
+    <script src="script.js"></script>
+<script>
+document.addEventListener('click', function playMusicOnce() {
+    var audio = document.getElementById('bg-music');
+    if (audio && audio.paused) {
+        audio.play().catch(()=>{});
+    }
+    document.removeEventListener('click', playMusicOnce);
+});
+
+function playSectionSong(sectionIndex) {
+    const audio = document.getElementById('bg-music');
+    if (!audio) return;
+    let musicFile = 'music.mp3';
+    switch (sectionIndex) {
+        case 1: musicFile = 'music.mp3'; break;      // Love Section
+        case 2: musicFile = 'music2.mp3'; break;     // Silence Section
+        case 4: musicFile = 'music3.mp3'; break;     // Promise Section
+        case 5: musicFile = 'music4.mp3'; break;     // Gift Section
+        case 3: 
+            // Check if photo-gallery is visible
+            const gallery = document.querySelector('.photo-gallery');
+            if (gallery && gallery.offsetParent !== null) {
+                musicFile = 'music7.mp3'; // Photo Gallery music
+            } else {
+                musicFile = 'music5.mp3'; // Special Section music
+            }
+            break;
+        case 6: musicFile = 'music6.mp3'; break;     // Jelous Section
+        default: musicFile = 'music.mp3';
+    }
+    if (!audio.src.endsWith(musicFile)) {
+        audio.src = musicFile;
+        audio.currentTime = 0;
+    }
+    audio.play().catch(()=>{});
+}
+</script>
+</body>
+</html>
