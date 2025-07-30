@@ -81,8 +81,8 @@ const sectionBackgrounds = [
     "story/src/css/photo1.jpg", // Welcome
     "story/src/css/photo2.jpg", // Love
     "story/src/css/photo3.jpg", // Silence
-    "story/src/css/photo1.jpg", // Special (gallery)
-    "story/src/css/photo2.jpg", // Promise
+    "story/src/css/photo4.jpg", // Special (gallery)
+    "story/src/css/photo5.jpg", // Promise
     "story/src/css/photo3.jpg", // Gift
     "story/src/css/photo1.jpg"  // Jelous (choose any image)
 ];

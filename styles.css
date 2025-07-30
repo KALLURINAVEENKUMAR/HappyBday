@@ -469,13 +469,14 @@ body {
     height: 160px;
     object-fit: cover;
     border-radius: 12px;
-    filter: brightness(0.92) contrast(1.08) drop-shadow(0 2px 8px rgba(0,0,0,0.10));
-    transition: transform 0.3s;
+    filter: brightness(1.05) contrast(1.1) saturate(1.05) drop-shadow(0 2px 8px rgba(0,0,0,0.08));
+    transition: transform 0.3s ease;
 }
 
 .photo-shade img:hover {
     transform: scale(1.05) rotate(-2deg);
 }
+
 
 /* Back Arrow Button */
 .back-arrow {
